@@ -1,0 +1,87 @@
+body{
+
+  background-image: url(https://gifimage.net/wp-content/uploads/2018/06/vaporwave-background-gif-7.gif)
+  /* background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%); */
+}
+
+input {
+    border: solid 1px black;
+
+
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .product-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    
+  }
+  
+  .new-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+  
+  } 
+  
+  #create {
+    display: flex;
+    justify-content: right;
+    
+  }
+  
+  #create {
+    background-color: pink;
+    border: 2px solid pink;
+  }
+  
+  /* .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  } */
+  
+  .btn-sucess {
+      color: #fff;
+      background-color: #5cb85c;
+      border-color: #4cae4c;
+  }
+  
+  .btn-delete {
+      color: #fff;
+      background-color: #CF000F;
+      border-color: #CF000F;
+  }
+  
+  .quantity {
+    margin: 0 5px;
+  }
+  
+  .calc-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }

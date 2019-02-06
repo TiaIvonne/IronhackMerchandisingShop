@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <script type="text/javascript" src="./index.js"></script>
+  <title>Ironhack cart</title>
+</head>
+<body>
+
+<h1>Ironhack A E S T H E T I C Merchandising Shop</h1>
+        <div class="products">
+            <div class="product-line">
+                <div><span class="product-name">IronBubble-head</span></div>
+                <div><span class="product-price">25</span>$</div>
+                <div class="product-units">
+                    <label for="units">QTY</label>
+                    <input type="text" name="units">
+                </div>
+                <div class="total-product-price"><span>0$</span></div>
+                <div><button name="deleteButton" class="btn-delete">Delete</button> </div>
+            </div>
+    
+            <div class="product-line">
+                <div><span class="product-name">Teddy Bear</span></div>
+                <div><span class="product-price">250</span>$</div>
+                <div class="product-units">
+                    <label for="units">QTY</label>
+                    <input type="text" name="units">
+                </div>
+                <div class="total-product-price"><span>0$</span></div>
+                <div><button name="deleteButton" class="btn-delete">Delete</button> </div>
+            </div>
+        </div>    
+       
+        <div class="new-item">
+            <div>
+              <input id="new-product-name" type="text" name="item">
+              <input id="new-product-price" type="text" name="price">
+            </div>
+             <div class="create-button"><button name="new-item-create" class="btn btn-create" id="create">Create</button></div>
+        </div>
+    
+
+    <div class="calc-button"><button id="calc-prices" class="btn-sucess">Calculate</button></div>
+    <div class="total-price"><h1>Total Price </h1></div>
+</body>
+</html>
