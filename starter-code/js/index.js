@@ -3,7 +3,7 @@ function deleteItem(e){
   var btn = e.currentTarget;
   var button = btn.parentNode;
   var container=button.parentNode;
-  container.removeChild(button);
+  container.remove();
 }
 
 function getTotalPrice(){
@@ -65,7 +65,7 @@ function createDeleteButton(item){
 
 
 function createItemNode(){
-  var container = document.querySelector('.product-line');
+  var container = document.querySelector('.products');
   
   var item = document.createElement('div');
   item.classList.add('product-line');

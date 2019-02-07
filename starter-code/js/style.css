@@ -1,5 +1,6 @@
 body{
-
+  background-size:100%;
+  background-repeat: no-repeat;
   background-image: url(https://gifimage.net/wp-content/uploads/2018/06/vaporwave-background-gif-7.gif)
   /* background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%); */
 }
